@@ -1,0 +1,62 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encriptador</title>
+
+</head>
+
+<body>
+    <section class="home">
+        <div class="in-flex">
+            <img id="logo" src="Imagenes/LogoA.png">
+            <div id="contenedor">
+                <textarea class="inpt" id="txtentrada" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div style="margin-top: 5%;">
+                <img src="Imagenes/signo.png">
+                <span class="stladv">Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="btndv">
+                <td>
+                    <form>
+                        <input class="btnencr" id="encrip" value="Encriptar"/>
+                        <input class="btndesencr" id="desencrip" value="Desencriptar"/>
+                    </form>
+                </td>
+            </div>
+        </div>
+        <div class="in-flex">
+            <div class="derecha">
+                <textarea class="result" disabled></textarea>
+                <img class="imgsintxt" id="imglupa"src="Imagenes/Mueco.png">
+                <h4 class="stlmsjVacio1" id="txtmsj1">Ningún mensaje fue encontrado</h4>
+                <h5 class="stlmsjVacio2" id="txtmsj2">Ingresa el texto
+                    que desees encriptar o desencriptar.</h5>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script>
+    
+    document.getElementById("encrip").onclick = function() {
+
+        if(document.getElementById("txtentrada").value !='')
+        {
+            document.getElementById("imglupa").remove();
+            document.getElementById("txtmsj1").remove();
+            document.getElementById("txtmsj2").remove();
+            /*FUNCION ENCRIPTAR*/
+        }
+        
+    }
+
+    
+</script>

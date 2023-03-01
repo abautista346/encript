@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+  background: #E5E5E5;
+}
+
+.home{
+    display: flex;
+    /* para responsive*/
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    padding: 25px;
+    /* minimo espacio en pantalla*/
+    min-width: 250px;
+
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #E5E5E5;
+    margin-bottom: 0px;
+
+    
+}
+
+.derecha{
+    width: 400px;
+    height: 944px;
+
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.btndv{
+    width: 800px;
+    height: 100px;
+
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.inpt { 
+	color:#0A3871;
+	width:577px;
+	height:400px;
+	
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 200px;
+    margin-top: 108px;
+    border: 0px;
+    background-color: #E5E5E5;
+    box-sizing: auto;
+}
+
+#contenedor{
+    display: inline-block;
+    min-width: 100px;
+}
+
+.btnencr { 
+	background: #0A3871;
+    border-radius: 24px;
+	width:328px;
+	height:67px;border-radius: 24px;
+
+    color:#FFFFFF;
+    font-family:Inter;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+    border: 0px;
+
+}
+.btndesencr { 
+	background: #D8DFE8;
+	width:328px;
+	height:67px;
+	border-radius: 24px;
+
+    color: #0A3871;
+	font-family:Inter;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+    border: 0px;
+
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+}
+
+.stladv { 
+	color:#495057;
+	opacity:0.800000011920929;
+	width:205px;
+	height:18px;
+
+	font-family:Inter;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+
+}
+
+.result{
+    width: 300px;
+    height: 200px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+    margin: 15%;
+
+    border: 0px;
+    background-color: #FFFFFF;
+}
+
+.imgsintxt{
+    margin: 7%;
+    margin-top: 0px;
+}
+
+.stlmsjVacio1 { 
+	color:#000000;
+	width:336px;
+	height:58px;
+
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+
+    margin: 10%;
+    margin-bottom: 0px;
+}
+.stlmsjVacio2 { 
+	color:#000000;	
+    width:336px;
+	height:48px;
+
+	font-family:Inter;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+
+    margin: 10%;
+    margin-top: 2%;
+
+}
+
